@@ -1,6 +1,6 @@
 import React from 'react';
 import MoviesCardlist from "../MoviesCardlist";
-import Preloader from "../Preloader";
+// import Preloader from "../Preloader";
 import SearchForm from "../SearchForm";
 
 const Movies = () => {

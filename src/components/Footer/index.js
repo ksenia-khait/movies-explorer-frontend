@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className="footer__underline">
                     <div className="footer__year"><p className="footer__link">© 2020</p></div>
                     <div className="footer__links">
-                        <a className="footer__link" href="">Яндекс.Практикум</a> <a className="footer__link"
-                                                                                    href="">Github</a>
+                        <a className="footer__link" href="https://github.com/ksenia-khait/movies-explorer-frontend">Яндекс.Практикум</a> <a className="footer__link"
+                                                                                    href="#">Github</a>
                     </div>
                 </div>
             </div>

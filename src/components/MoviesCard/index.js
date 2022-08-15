@@ -6,7 +6,7 @@ const MoviesCard = () => {
     return (
         <div>
             <div className="movie">
-                <img className="movie__image" src={cardimg} alt=""/>
+                <img className="movie__image" src={cardimg} alt="Изображение"/>
                 <div className="movie__text-box">
                     <div className="movie__caption">
                         <h2 className="movie__text">33 слова о дизайне</h2>

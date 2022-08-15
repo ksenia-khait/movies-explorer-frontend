@@ -1,7 +1,5 @@
 import React from 'react';
 import './Profile.css';
-import cross from "../../images/cross.svg";
-import {Link} from "react-router-dom";
 
 const Profile = () => {
     return (

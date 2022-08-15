@@ -19,7 +19,7 @@ const AboutMe = () => {
                                 компании «СКБ Контур». После того, как прошёл курс по веб-разработке, начал
                                 заниматься фриланс-заказами и ушёл с постоянной работы.</p>
                         </div>
-                        <a className="profile__link" href="#">Github</a>
+                        <a className="profile__link" href="https://github.com/ksenia-khait">Github</a>
                     </div>
                     <div className="profile__img-order">
                         <img

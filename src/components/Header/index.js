@@ -14,7 +14,6 @@ const Header = () => {
                 </Link>
                 <Navigation/>
             </nav>
-
         </header>
     );
 };

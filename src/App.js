@@ -9,7 +9,7 @@ import Profile from "./components/Profile";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Error from "./components/Error";
-import Preloader from "./components/Preloader";
+// import Preloader from "./components/Preloader";
 
 function App() {
     const location = useLocation();
@@ -44,7 +44,7 @@ function App() {
                     <Error/>
                 }/>
             </Routes>
-            <Preloader/>
+            {/*<Preloader/>*/}
             {location.pathname === '/' ||
             location.pathname === '/movies' ||
             location.pathname === '/movies' ?

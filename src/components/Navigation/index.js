@@ -28,7 +28,7 @@ const Navigation = () => {
                 <div className="menu__container">
                     <nav className="menu__links">
                         <button className="menu__close">
-                            <img className="menu__img" src={cross}/>
+                            <img className="menu__img" src={cross} alt="Закрыть"/>
                         </button>
                         <li className="menu__item"><Link className="menu__link" to='/'>Главная</Link></li>
                         <li className="menu__item"><Link className="menu__link" to='/movies'>Фильмы</Link></li>

@@ -8,7 +8,6 @@ const SavedMovies = () => {
         <div>
             <SearchForm/>
             <MoviesCardlist/>
-            {/*<Navigation/>*/}
         </div>
     );
 };

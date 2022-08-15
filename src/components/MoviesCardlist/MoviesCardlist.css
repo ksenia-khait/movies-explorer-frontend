@@ -11,12 +11,32 @@
     cursor: pointer;
 }
 
+@media all and (max-width: 1144px) {
+    .movies {
+        grid-template-columns: repeat(3, 1fr);
+        /*column-gap: 30px;*/
+        /*row-gap: 36px;*/
+        /*max-width: 708px;*/
+    }
+}
+
+
+
 @media all and (max-width: 767px) {
     .movies {
-        grid-template-columns: repeat(2, 339px);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
         row-gap: 36px;
         max-width: 708px;
+    }
+}
+
+@media all and (max-width: 710px) {
+    .movies {
+        grid-template-columns: repeat(1, 1fr);
+        /*column-gap: 30px;*/
+        /*row-gap: 36px;*/
+        /*max-width: 708px;*/
     }
 }
 

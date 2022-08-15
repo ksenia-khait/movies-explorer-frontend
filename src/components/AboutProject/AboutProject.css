@@ -1,0 +1,146 @@
+.about__container {
+    margin: 110px auto;
+    max-width: 1140px;
+}
+
+@media all and (max-width: 767px) {
+    .about__container {
+        max-width: 668px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .about__container {
+        max-width: 248px;
+        margin: 70px auto;
+    }
+}
+
+.about__horizontal-line {
+    border: none;
+    border-top: 1px solid #000000;
+    margin-bottom: 70px;
+}
+
+.about__info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 110px;
+}
+
+@media all and (max-width: 320px) {
+    .about__info {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
+.about__info-item {
+    max-width: 550px;
+    margin-right: 40px;
+}
+
+@media all and (max-width: 320px) {
+    .about__info-item {
+        margin: 0;
+    }
+}
+
+.about__info-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    margin: 0;
+}
+
+@media all and (max-width: 320px) {
+    .about__info-paragraph {
+        margin-bottom: 56px;
+        font-size: 11px;
+    }
+
+}
+
+.about__info-title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    margin: 0 0 26px;
+}
+
+@media all and (max-width: 320px) {
+    .about__info-title {
+        font-size: 18px;
+    }
+}
+
+.about__title {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -0.04em;
+}
+
+@media all and (max-width: 320px) {
+    .about__title {
+        font-size: 18px;
+    }
+}
+
+.track-grid {
+    display: grid;
+    grid-template-rows: 36px 36px;
+    grid-template-columns: 228px auto;
+}
+
+@media all and (max-width: 320px) {
+    .track-grid {
+        max-width: 284px;
+        grid-template-columns: 100px auto;
+    }
+}
+
+.track-grid__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-grid__cell:first-of-type {
+    background: #2BE080;
+}
+
+.track-grid__cell:nth-of-type(2n) {
+    background: #F2F2F2;
+}
+
+.track-grid__cell:last-of-type {
+    background: none;
+}
+
+.track-grid__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A0A0A0;
+    line-height: 121%;
+}
+
+@media all and (max-width: 320px) {
+    .track-grid__subtitle {
+        font-size: 11px;
+    }
+}
+
+.track-grid__title {
+    margin: 0;
+}
+
+.track-grid__title:first-of-type {
+
+}
+
+@media all and (max-width: 320px) {
+    .track-grid__title {
+        font-size: 11px;
+    }
+}

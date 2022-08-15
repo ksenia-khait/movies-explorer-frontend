@@ -1,0 +1,124 @@
+.register {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register__button {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 16px;
+    background: #3456F3;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media all and (max-width: 767px) {
+    .register__button {
+
+    }
+}
+
+@media all and (max-width: 320px) {
+    .register__button {
+        font-size: 12px;
+    }
+}
+
+.register__caption {
+    display: flex;
+    justify-content: center;
+}
+
+.register__container {
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+@media all and (max-width: 767px) {
+    .register__container {
+        margin-top: 20%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .register__container {
+        width: 260px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 69px;
+    width: 100%;
+}
+
+.register__form-box {
+    width: 100%;
+}
+
+.register__input {
+    background: #F9F9F9;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.register__lable {
+    margin-bottom: 10px;
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.register__login-caption {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A0A0A0;
+}
+
+@media all and (max-width: 320px) {
+    .register__login-caption {
+        font-size: 12px;
+    }
+}
+
+.register__login-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #A0A0A0;
+    color: #3456F3;
+    text-decoration: none;
+}
+
+@media all and (max-width: 320px) {
+    .register__login-link {
+        font-size: 12px;
+    }
+}
+
+.register__logo {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 40px;
+}
+
+.register__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}

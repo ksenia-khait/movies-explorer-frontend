@@ -1,0 +1,93 @@
+.movie {
+    width: 100%;
+    min-height: 218px;
+    background: #FDFDFD;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie__add-button {
+    background-image: url("../../images/save-button.svg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.09);
+}
+
+.movie__add-button_active {
+    background-image: url("../../images/save-button-active.svg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.09);
+}
+
+.movie__caption {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.movie__image {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.movie__remove-button {
+    background-image: url("../../images/del.svg");
+    background-position: center;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.movie__text {
+    max-width: 206px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.movie__text-box {
+    display: flex;
+    flex-direction: column;
+    width: 246px;
+    margin: 0 auto 10px;
+}
+
+@media all and (max-width: 767px) {
+    .movie__text-box {
+        width: 315px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .movie__text-box {
+        width: 276px;
+    }
+}
+
+.movie__timecode {
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.movie__timecode-box {
+    width: 246px;
+    margin-left: 12px;
+}

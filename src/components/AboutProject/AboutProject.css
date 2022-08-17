@@ -1,0 +1,125 @@
+.about__container {
+    margin: 110px 70px;
+    max-width: 1140px;
+}
+
+.about__horizontal-line {
+    border: none;
+    border-top: 1px solid #000000;
+    margin-bottom: 70px;
+}
+
+.about__info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 110px;
+}
+
+.about__info-item {
+    max-width: 550px;
+    margin-right: 40px;
+}
+
+.about__info-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    margin: 0;
+}
+
+.about__info-title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    margin: 0 0 26px;
+}
+
+.about__title {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -0.04em;
+}
+
+.track-grid {
+    display: grid;
+    grid-template-rows: 36px 36px;
+    grid-template-columns: 228px auto;
+}
+
+.track-grid__cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-grid__cell:first-of-type {
+    background: #2BE080;
+}
+
+.track-grid__cell:nth-of-type(2n) {
+    background: #F2F2F2;
+}
+
+.track-grid__cell:last-of-type {
+    background: none;
+}
+
+.track-grid__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A0A0A0;
+    line-height: 121%;
+}
+
+@media all and (max-width: 767px) {
+    .about__container {
+        margin: 110px 30px;
+    }
+    .track-grid {
+        grid-template-columns: 140px auto;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .track-grid__subtitle {
+        font-size: 11px;
+    }
+    .track-grid {
+        grid-template-columns: 100px auto;
+    }
+    .about__info-title {
+        font-size: 18px;
+    }
+    .about__title {
+        font-size: 18px;
+    }
+    .track-grid__title {
+        font-size: 11px;
+    }
+    .about__info-paragraph {
+        margin-bottom: 56px;
+        font-size: 11px;
+    }
+    .about__info-item {
+        margin: 0;
+    }
+    .about__info {
+        display: block;
+        margin-bottom: 0;
+    }
+    .about__container {
+             margin: 70px 14px;
+    }
+    .track-grid {
+        grid-template-columns: 100px auto;
+    }
+}
+
+.track-grid__title {
+    margin: 0;
+}
+
+.track-grid__title:first-of-type {
+
+}

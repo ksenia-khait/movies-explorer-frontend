@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.header_dark-bg {
+    background-color: #073042;
+}
+
+.header__navbar {
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 28px 70px;
+    align-items: center;
+}
+
+@media all and (max-width: 767px) {
+    .header__navbar {
+        max-width: 708px;
+        margin: 20px 30px;
+    }
+    .header {
+        max-width: 767px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .header__navbar {
+        margin: 20px 14px;
+    }
+}

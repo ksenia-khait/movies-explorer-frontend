@@ -75,9 +75,8 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 500px) {
     .search__input-box {
-        min-width: 300px;
         margin-bottom: 45px;
     }
 

@@ -30,7 +30,6 @@
 
 @media all and (max-width: 500px) {
     .header__navbar {
-        max-width: 292px;
         margin: 20px 14px;
     }
 }

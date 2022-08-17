@@ -25,12 +25,23 @@
     padding-top: 184px;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
+    .banner__title {
+        font-size: 36px;
+    }
+    .banner__background {
+        max-width: 300px;
+        top: 115px;
+    }
+}
+
+@media all and (max-width: 320px) {
     .banner__title {
         font-size: 31px;
         max-width: 300px;
     }
     .banner__background {
         max-width: 248px;
+        top: 115px;
     }
 }

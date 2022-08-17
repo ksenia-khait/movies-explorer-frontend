@@ -76,6 +76,9 @@
     .about__container {
         margin: 110px 30px;
     }
+    .track-grid {
+        grid-template-columns: 140px auto;
+    }
 }
 
 @media all and (max-width: 500px) {
@@ -106,9 +109,10 @@
         margin-bottom: 0;
     }
     .about__container {
-        /*max-width: 248px;*/
-
-        margin: 70px 14px;
+             margin: 70px 14px;
+    }
+    .track-grid {
+        grid-template-columns: 100px auto;
     }
 }
 

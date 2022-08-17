@@ -30,7 +30,7 @@
     width: 470px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 320px) {
     .account__container {
         justify-content: space-between;
         max-width: 260px;

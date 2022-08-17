@@ -52,8 +52,7 @@
 
 @media all and (max-width: 500px) {
     .footer__container {
-        max-width: 300px;
-        margin: 0 14px 20px;
+        margin: 0 13px 20px;
     }
     .footer__caption {
         font-size: 12px;

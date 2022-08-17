@@ -12,7 +12,7 @@
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 320px) {
     .page {
         max-width: 320px;
     }

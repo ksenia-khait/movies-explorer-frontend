@@ -203,6 +203,10 @@
     border: none;
 }
 
+.burger-menu:hover {
+    cursor: pointer;
+}
+
 .burger-menu::before {
     display: block;
     background-color: black;

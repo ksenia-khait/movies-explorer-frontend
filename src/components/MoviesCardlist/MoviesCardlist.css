@@ -1,7 +1,8 @@
 .movies {
     max-width: 1140px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
     column-gap: 17px;
     row-gap: 32px;
     margin: 0 auto;
@@ -11,41 +12,17 @@
     cursor: pointer;
 }
 
-@media all and (max-width: 1144px) {
-    .movies {
-        grid-template-columns: repeat(3, 1fr);
-        /*column-gap: 30px;*/
-        /*row-gap: 36px;*/
-        /*max-width: 708px;*/
-    }
-}
-
-
-
 @media all and (max-width: 767px) {
     .movies {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 30px;
-        row-gap: 36px;
-        max-width: 708px;
+        grid-template-columns: repeat(auto-fill, minmax(339px, 1fr));
+        /*margin: 0 30px;*/
     }
 }
 
-@media all and (max-width: 710px) {
+@media all and (max-width: 500px) {
     .movies {
-        grid-template-columns: repeat(1, 1fr);
-        /*column-gap: 30px;*/
-        /*row-gap: 36px;*/
-        /*max-width: 708px;*/
-    }
-}
-
-@media all and (max-width: 320px) {
-    .movies {
-        grid-template-columns: repeat(1, 300px);
-        column-gap: 0;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         row-gap: 20px;
-        max-width: 300px;
     }
 }
 

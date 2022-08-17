@@ -22,7 +22,7 @@
     margin-right: 0;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 500px) {
     .main-navbar__list-item {
         margin-right: 24px;
     }

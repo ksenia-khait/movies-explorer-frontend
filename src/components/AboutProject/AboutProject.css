@@ -1,19 +1,6 @@
 .about__container {
-    margin: 110px auto;
+    margin: 110px 70px;
     max-width: 1140px;
-}
-
-@media all and (max-width: 767px) {
-    .about__container {
-        max-width: 668px;
-    }
-}
-
-@media all and (max-width: 320px) {
-    .about__container {
-        max-width: 248px;
-        margin: 70px auto;
-    }
 }
 
 .about__horizontal-line {
@@ -28,22 +15,9 @@
     margin-bottom: 110px;
 }
 
-@media all and (max-width: 320px) {
-    .about__info {
-        display: block;
-        margin-bottom: 0;
-    }
-}
-
 .about__info-item {
     max-width: 550px;
     margin-right: 40px;
-}
-
-@media all and (max-width: 320px) {
-    .about__info-item {
-        margin: 0;
-    }
 }
 
 .about__info-paragraph {
@@ -53,25 +27,11 @@
     margin: 0;
 }
 
-@media all and (max-width: 320px) {
-    .about__info-paragraph {
-        margin-bottom: 56px;
-        font-size: 11px;
-    }
-
-}
-
 .about__info-title {
     font-weight: 400;
     font-size: 20px;
     letter-spacing: -0.04em;
     margin: 0 0 26px;
-}
-
-@media all and (max-width: 320px) {
-    .about__info-title {
-        font-size: 18px;
-    }
 }
 
 .about__title {
@@ -80,23 +40,10 @@
     letter-spacing: -0.04em;
 }
 
-@media all and (max-width: 320px) {
-    .about__title {
-        font-size: 18px;
-    }
-}
-
 .track-grid {
     display: grid;
     grid-template-rows: 36px 36px;
     grid-template-columns: 228px auto;
-}
-
-@media all and (max-width: 320px) {
-    .track-grid {
-        max-width: 284px;
-        grid-template-columns: 100px auto;
-    }
 }
 
 .track-grid__cell {
@@ -125,9 +72,43 @@
     line-height: 121%;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
+    .about__container {
+        margin: 110px 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
     .track-grid__subtitle {
         font-size: 11px;
+    }
+    .track-grid {
+        grid-template-columns: 100px auto;
+    }
+    .about__info-title {
+        font-size: 18px;
+    }
+    .about__title {
+        font-size: 18px;
+    }
+    .track-grid__title {
+        font-size: 11px;
+    }
+    .about__info-paragraph {
+        margin-bottom: 56px;
+        font-size: 11px;
+    }
+    .about__info-item {
+        margin: 0;
+    }
+    .about__info {
+        display: block;
+        margin-bottom: 0;
+    }
+    .about__container {
+        /*max-width: 248px;*/
+
+        margin: 70px 14px;
     }
 }
 
@@ -137,10 +118,4 @@
 
 .track-grid__title:first-of-type {
 
-}
-
-@media all and (max-width: 320px) {
-    .track-grid__title {
-        font-size: 11px;
-    }
 }

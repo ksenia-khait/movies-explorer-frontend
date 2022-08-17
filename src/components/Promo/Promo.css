@@ -13,12 +13,6 @@
     position: absolute;
 }
 
-@media all and (max-width: 320px) {
-    .banner__background {
-        max-width: 248px;
-    }
-}
-
 .banner__title {
     margin: 0 auto;
     max-width: 730px;
@@ -31,9 +25,12 @@
     padding-top: 184px;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
     .banner__title {
         font-size: 31px;
         max-width: 300px;
+    }
+    .banner__background {
+        max-width: 248px;
     }
 }

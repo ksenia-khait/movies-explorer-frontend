@@ -7,16 +7,19 @@ const SearchForm = () => {
     return (
         <section className="search">
             <div className="search__container">
-                <div className="search__input-box">
-                    <input className="search__input" placeholder="Фильм">
+                <form className="search__input-box">
+                    <input
+                        className="search__input"
+                        placeholder="Фильм"
+                        required>
                     </input>
-                    <div className="search__button">
+                    <button className="search__button">
                         <img
                             src={lenth}
                             className="search__lenth"
                             alt="Лупа"/>
-                    </div>
-                </div>
+                    </button>
+                </form>
                 <div>
                     <div className="search__filter">
                         <p className="search__filter-caption">Короткометражки</p>

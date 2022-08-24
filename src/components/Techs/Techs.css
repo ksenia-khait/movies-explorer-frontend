@@ -9,9 +9,8 @@
 }
 
 .technologies__title {
-    margin: 0;
     text-align: center;
-    margin-bottom: 26px;
+    margin: 0 0 26px;
     font-size: 50px;
     font-weight: 400;
     letter-spacing: -0.04em;

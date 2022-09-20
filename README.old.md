@@ -1,20 +1,18 @@
 # movies-explorer-frontend - - приложение на React с регистрацией и авторизацией. Поисковик фильмов
 #### Данный проект выполнен в рамках учебного курса от Яндекс.Практикум. 
-**Дипломный проект. Часть 1 - Frontend.**
+**Дипломный проект. Часть 2 - Frontend.**
 
 ## Проект все еще находится в разработке
 
-- Домен сайта   https://diplomamovies.nomoredomains.xyz/
-- Домен сервера https://api.diplomamovies.nomoredomains.xyz/
-- Ссылка на макет в Figma https://www.figma.com/file/TVOH66sG1yXMkENd3haU8Y/Diploma-(Copy)?node-id=891%3A3857
-
-# movies-explorer-api - приложение на React с регистрацией и авторизацией. Поисковик фильмов
-#### Данный проект выполнен в рамках учебного курса от Яндекс.Практикум. 
-**Дипломный проект. Часть 1 - Backend.**
-
-Описание: данный репозиторий является backend частью проекта по поиску фильмов Movies-Explorer.
+Описание: данный репозиторий является frontend частью проекта по поиску фильмов Movies-Explorer.
 
 #### Стек Технологий:
+Frontend:
++ JSX
++ CSS
++ React
+
+Backend:
 + MongoDB
 + Node.js
 + Express.js
